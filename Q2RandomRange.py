@@ -1,2 +1,8 @@
-# Create a program that accepts 2 numbers from the user. 
-# Your program will output a random number between the range given by the user.
+import random
+
+a = input(int("Input Number A "))
+b = input(int("Input Number B "))
+
+c = random.randint(a,b)
+
+print(c)

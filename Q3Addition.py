@@ -1,2 +1,13 @@
-# Create a program that will ask the user an addition question. 
-# The program will generate two random numbers between 1 and 100, and display them as an addition question with appropriate prompts.
+import random
+
+robert = int(random.randint(1, 100))
+jamis = int(random.randint(1, 100))
+
+noam = robert + jamis
+
+blapis = input(robert, "+", jamis, "= ?")
+
+if noam == blapis:
+    print("corect")
+else:
+    print("wrong")
